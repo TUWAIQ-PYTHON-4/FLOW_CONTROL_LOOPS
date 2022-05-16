@@ -24,6 +24,7 @@ while True:
 
     if int(user_input )== 168:
         print("You answered this Question correctly")
+        break
     else:
        print("Your Answer is wrong try again.." )
     continue
