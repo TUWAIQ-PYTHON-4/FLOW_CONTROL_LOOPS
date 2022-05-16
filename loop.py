@@ -20,7 +20,7 @@ condition = False
 while(condition == False):
     answer = input("What is the product of 7 * 24 ? ")
     answer = int(answer)
-    if answer == 168:
+    if answer == question:
         print("You answered this Question correctly")
         condition = True
     else:
