@@ -17,7 +17,7 @@ for i in range(45,210):
 
 question:int = 7*24
 condition = False
-while(condition == False):
+while condition == False:
     answer = input("What is the product of 7 * 24 ? ")
     answer = int(answer)
     if answer == question:
