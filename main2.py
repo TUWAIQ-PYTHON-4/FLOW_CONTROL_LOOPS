@@ -1,6 +1,6 @@
-#answer = True
+answer = True
 
-while True :
+while answer :
     print( "what is the product of 7 * 24 ? ")
     result = input( " inter your answer  " )
 
