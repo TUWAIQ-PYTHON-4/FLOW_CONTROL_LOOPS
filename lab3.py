@@ -11,12 +11,13 @@ for n in x:
     break
 
 # ## 2) 
-a = int(input("what is the product of 7 * 24 ?"))
-
-if a == 168:
-    print("You answered this Question correctly")
-else:
-    print("Your Answer is wrong try again..")
+while True:
+    var=int(input("what is the product of 7 * 24 ?"))
+    if var==168:
+            print("You answered this Question correctly")
+            break
+    else:
+        print("your answer worng please again..")
 
 
 
